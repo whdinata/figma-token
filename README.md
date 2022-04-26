@@ -1,2 +1,1 @@
 # figma-token
-sdfd
