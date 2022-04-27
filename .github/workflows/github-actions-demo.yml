@@ -1,9 +1,16 @@
-name: GitHub Actions Demo
-on: [create]
+name: Transform Design Token
+on: 
+  push:
+    paths:
+      - 'data/tokens.json'
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+  transform-design-token:
+    runs-on: macos-latest
     steps:
+      - uses: actions/setup-node@v2
+        with: 
+          node-version: 16
+      - uses: 
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
