@@ -19,3 +19,8 @@ jobs:
         run: npm install -g style-dictionary
       - name: Build Style Dictionary
         run: style-dictionary build
+      - name: Commit Generated Platform Deliverables
+        id: "auto-commit-action"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update design tokens
