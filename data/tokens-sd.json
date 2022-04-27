@@ -1,0 +1,2373 @@
+{
+  "sapBrandColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapHighlightColor": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapBrandColor, 10)",
+    "type": "color"
+  },
+  "sapBaseColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapShellColor": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapBackgroundColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapPrimary3, 3)",
+    "type": "color"
+  },
+  "sapFontSize": {
+    "value": 14,
+    "type": "fontSizes"
+  },
+  "sapTextColor": {
+    "value": "#32363a",
+    "type": "color"
+  },
+  "sapLinkColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapSelectedColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapActiveColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapTitleColor": {
+    "value": "#32363a",
+    "type": "color"
+  },
+  "sapNegativeElementColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapCriticalElementColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapPositiveElementColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapInformativeElementColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapNeutralElementColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapNegativeTextColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapCriticalTextColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapPositiveTextColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapInformativeTextColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapNeutralTextColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapErrorColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapWarningColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapSuccessColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapInformationColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapErrorBackground": {
+    "value": "#bb0000",
+    "description": "lighten(@sapErrorColor, 59.5)",
+    "type": "color"
+  },
+  "sapWarningBackground": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapWarningColor, 51)",
+    "type": "color"
+  },
+  "sapSuccessBackground": {
+    "value": "#107e3e",
+    "description": "lighten(@ sapSuccessColor, 69)",
+    "type": "color"
+  },
+  "sapInformationBackground": {
+    "value": "#0a6ed1",
+    "description": "lighten(@sapInformationColor, 55)",
+    "type": "color"
+  },
+  "sapNeutralBackground": {
+    "value": "#6a6d70",
+    "description": "lighten(@sapNeutralColor, 53)",
+    "type": "color"
+  },
+  "sapErrorBorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapWarningBorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapSuccessBorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapInformationBorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapNeutralBorderColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapElement_LineHeight": {
+    "value": 44,
+    "type": "sizing"
+  },
+  "sapElement_Height": {
+    "value": 36,
+    "type": "sizing"
+  },
+  "sapElement_BorderCornerRadius": {
+    "value": 4,
+    "type": "borderRadius"
+  },
+  "sapElement_BorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapElement_Compact_LineHeight": {
+    "value": 32,
+    "type": "sizing"
+  },
+  "sapElement_Compact_Height": {
+    "value": 26,
+    "type": "sizing"
+  },
+  "sapElement_Condensed_LineHeight": {
+    "value": 24,
+    "type": "sizing"
+  },
+  "sapElement_Condensed_Height": {
+    "value": 22,
+    "type": "sizing"
+  },
+  "sapContent_IconHeight": {
+    "value": 16,
+    "type": "sizing"
+  },
+  "sapContent_IconColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapContent_ContrastIconColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapContent_NonInteractiveIconColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapContent_MarkerIconColor": {
+    "value": "#286eb4",
+    "type": "color"
+  },
+  "sapContent_MarkerTextColor": {
+    "value": "#0f828f",
+    "description": "darken(@sapAccentColor7, 3)",
+    "type": "color"
+  },
+  "sapContent_Placeholderloading_Background": {
+    "value": "#ffffff",
+    "description": "darken(@sapBaseColor, 20)",
+    "type": "color"
+  },
+  "sapContent_ImagePlaceholderBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapBaseColor, 20)",
+    "type": "color"
+  },
+  "sapContent_ImagePlaceholderForegroundColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapContent_RatedColor": {
+    "value": "#d08014",
+    "type": "color"
+  },
+  "sapContent_UnratedColor": {
+    "value": "#89919a",
+    "type": "color"
+  },
+  "sapContent_ContrastFocusColor": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapContent_Shadow0": {
+    "value": [
+      {
+        "color": "#0000001a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0
+      },
+      {
+        "color": "#0000001a",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 1
+      }
+    ],
+    "type": "boxShadow",
+    "description": "@sapContent_Shadow0: 0 0 0 0.0625rem fade(@sapContent_ShadowColor, 10), 0 0.125rem 0.5rem 0 fade(@sapContent_ShadowColor, 10);"
+  },
+  "sapContent_Shadow1": {
+    "value": [
+      {
+        "color": "#0000004d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0
+      },
+      {
+        "color": "#0000006b",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 1
+      }
+    ],
+    "type": "boxShadow",
+    "description": "@sapContent_Shadow1: 0 0 0 0.0625rem fade(@sapContent_ShadowColor, 42), 0 0.125rem 0.5rem 0 fade(@sapContent_ShadowColor, 30);"
+  },
+  "sapContent_Shadow2": {
+    "value": [
+      {
+        "color": "#0000004d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 2,
+        "blur": 30,
+        "spread": 0
+      },
+      {
+        "color": "#0000006b",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 1
+      }
+    ],
+    "type": "boxShadow",
+    "description": "@sapContent_Shadow2: 0 0 0 0.0625rem fade(@sapContent_ShadowColor, 42), 0 0.625rem 1.875rem 0 fade(@sapContent_ShadowColor, 30);"
+  },
+  "sapContent_Shadow3": {
+    "value": [
+      {
+        "color": "#0000004d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 20,
+        "blur": 80,
+        "spread": 0
+      },
+      {
+        "color": "#0000006b",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 1
+      }
+    ],
+    "type": "boxShadow",
+    "description": "@sapContent_Shadow3: 0 0 0 0.0625rem fade(@sapContent_ShadowColor, 42), 0 1.25rem 5rem 0 fade(@sapContent_ShadowColor, 30);"
+  },
+  "sapContent_Selected_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapContent_Selected_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": " lighten(@sapContent_Selected_Background, 3)",
+    "type": "color"
+  },
+  "sapContent_Selected_ForegroundColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapFontHeaderFamily": {
+    "value": 72,
+    "type": "fontFamilies"
+  },
+  "sapFontSmallSize": {
+    "value": 12,
+    "type": "fontSizes"
+  },
+  "sapFontLargeSize": {
+    "value": 16,
+    "type": "fontSizes"
+  },
+  "sapFontHeader1Size": {
+    "value": 36,
+    "type": "fontSizes"
+  },
+  "sapFontHeader2Size": {
+    "value": 24,
+    "type": "fontSizes"
+  },
+  "sapFontHeader3Size": {
+    "value": 20,
+    "type": "fontSizes"
+  },
+  "sapFontHeader4Size": {
+    "value": 18,
+    "type": "fontSizes"
+  },
+  "sapFontHeader5Size": {
+    "value": 16,
+    "type": "fontSizes"
+  },
+  "sapFontHeader6Size": {
+    "value": 14,
+    "type": "fontSizes"
+  },
+  "sapLink_Hover_Color": {
+    "value": "#0a6ed1",
+    "description": " darken(@sapLinkColor, 10)",
+    "type": "color"
+  },
+  "sapLink_Active_Color": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapLink_Visited_Color": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapLink_InvertedColor": {
+    "value": "#0a6ed1",
+    "description": " lighten(@sapLinkColor, 48)",
+    "type": "color"
+  },
+  "sapLink_SubtleColor": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapLinkColor, 15)",
+    "type": "color"
+  },
+  "sapShell_Background": {
+    "value": "#edeff0",
+    "type": "color"
+  },
+  "sapShell_BackgroundImage": {
+    "value": "linear-gradient(180deg, #edeff0 0%, #edeff0 100%)",
+    "description": "linear-gradient(to bottom, darken(@sapShell_Background, 5), lighten(@sapShell_Background, 2));",
+    "type": "color"
+  },
+  "sapShell_BorderColor": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapShell_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapShellColor, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapShell_InteractiveBackground": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapShell_InteractiveBorderColor": {
+    "value": "#353b5f",
+    "description": "lighten(@sapShellColor, 30)",
+    "type": "color"
+  },
+  "sapShell_GroupTitleTextColor": {
+    "value": "#32363a",
+    "type": "color"
+  },
+  "sapShell_Hover_Background": {
+    "value": "#353b5f",
+    "description": "darken(@sapShellColor, 7)",
+    "type": "color"
+  },
+  "sapShell_Active_Background": {
+    "value": "#353b5f",
+    "description": "darken(@sapShellColor, 10)",
+    "type": "color"
+  },
+  "sapShell_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapShell_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold)",
+    "type": "color"
+  },
+  "sapShell_Selected_Background": {
+    "value": "#353b5f",
+    "description": "darken(@sapShellColor, 10)",
+    "type": "color"
+  },
+  "sapShell_Selected_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapShell_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold)",
+    "type": "color"
+  },
+  "sapShell_Selected_Hover_Background": {
+    "value": "#353b5f",
+    "description": "darken(@sapShellColor, 10)",
+    "type": "color"
+  },
+  "sapShell_Navigation_Background": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapShell_Navigation_Hover_Background": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapShell_Navigation_SelectedColor": {
+    "value": "#d1e8ff",
+    "type": "color"
+  },
+  "sapShell_Navigation_Selected_TextColor": {
+    "value": "#d1e8ff",
+    "type": "color"
+  },
+  "sapShell_Navigation_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapShell_Navigation_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold)",
+    "type": "color"
+  },
+  "sapShell_Navigation_Active_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapShell_Navigation_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold)",
+    "type": "color"
+  },
+  "sapShell_Navigation_Active_Background": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapButton_BorderCornerRadius": {
+    "value": 4,
+    "type": "borderRadius"
+  },
+  "sapField_BorderCornerRadius": {
+    "value": 2,
+    "type": "borderRadius"
+  },
+  "sapShell_NegativeColor": {
+    "value": "#bb0000",
+    "description": "lighten(@sapNegativeColor, 40)",
+    "type": "color"
+  },
+  "sapFont_button": {
+    "value": {
+      "fontFamily": 72,
+      "fontWeight": "bold",
+      "lineHeight": 16.1,
+      "fontSize": 14,
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textDecoration": "none",
+      "textCase": "none"
+    },
+    "type": "typography"
+  },
+  "sapButton_Emphasized_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Background, @sapHighlightColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_TextColor_inverted": {
+    "value": "#0a6ed1",
+    "description": "contrast(@sapButton_Background, @sapHighlightColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapContent_ContrastTextColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Shadow": {
+    "value": [
+      {
+        "color": "#0a6ed14d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0
+      },
+      {
+        "color": "#0a6ed14d",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 1
+      }
+    ],
+    "type": "boxShadow",
+    "description": "@sapContent_Shadow0: 0 0 0 0.0625rem fade(@sapContent_ShadowColor, 10), 0 0.125rem 0.5rem 0 fade(@sapContent_ShadowColor, 10);"
+  },
+  "sapButton_ShadowColor": {
+    "value": "#0a6ed14d",
+    "type": "color"
+  },
+  "sapShell_CriticalColor": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapCriticalColor, 27);",
+    "type": "color"
+  },
+  "sapShell_PositiveColor": {
+    "value": "#107e3e",
+    "description": "lighten(desaturate(@sapPositiveColor, 30), 50);",
+    "type": "color"
+  },
+  "sapShell_InformativeColor": {
+    "value": "#0a6ed1",
+    "description": "lighten(@sapInformativeColor, 41);",
+    "type": "color"
+  },
+  "sapShell_NeutralColor": {
+    "value": "#6a6d70",
+    "description": "lighten(@sapNeutralColor, 41);",
+    "type": "color"
+  },
+  "sapButton_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_BorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapButton_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": " lighten(@sapHighlightColor, 63);",
+    "type": "color"
+  },
+  "sapButton_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Hover_TextColor": {
+    "value": "#0a6ed1",
+    "description": "contrast(@sapButton_Hover_Background, @sapHighlightColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "@sapButton_IconColor": {
+    "value": "#0a6ed1",
+    "description": "contrast(@sapButton_Background, @sapContent_IconColor, @sapContent_ContrastIconColor, @sapContent_ContrastTextThreshold)",
+    "type": "color"
+  },
+  "sapButton_Active_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Active_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Emphasized_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Emphasized_TextColor": {
+    "value": "#ffffff",
+    "description": "ontrast(@sapButton_Emphasized_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapButton_Emphasized_Background, 7);",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Emphasized_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Active_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapButton_Emphasized_Background, 10);",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Active_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Emphasized_Active_TextColor": {
+    "value": "#ffffff",
+    "description": " contrast(@sapButton_Emphasized_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Reject_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Reject_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_TextColor": {
+    "value": "#bb0000",
+    "description": "contrast(@sapButton_Reject_Background, @sapNegativeTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Reject_Hover_Background": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_Hover_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_Hover_TextColor": {
+    "value": "#bb0000",
+    "description": "contrast(@sapButton_Reject_Hover_Background, @sapNegativeTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Reject_Active_Background": {
+    "value": "#bb0000",
+    "description": "darken(@sapNegativeElementColor, 5);",
+    "type": "color"
+  },
+  "sapButton_Reject_Active_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Reject_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Reject_Selected_Background": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_Selected_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Reject_Selected_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Reject_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Reject_Selected_Hover_Background": {
+    "value": "#bb0000",
+    "description": "lighten(@sapButton_Reject_Selected_Background, 5);",
+    "type": "color"
+  },
+  "sapButton_Reject_Selected_Hover_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Accept_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Accept_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_TextColor": {
+    "value": "#107e3e",
+    "description": "contrast(@sapButton_Accept_Background, @sapPositiveTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Accept_Hover_Background": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_Hover_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_Hover_TextColor": {
+    "value": "#107e3e",
+    "description": "contrast(@sapButton_Accept_Hover_Background, @sapPositiveTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Accept_Active_Background": {
+    "value": "#107e3e",
+    "description": "darken(@sapPositiveElementColor, 5);",
+    "type": "color"
+  },
+  "sapButton_Accept_Active_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Accept_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Accept_Selected_Background": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_Selected_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Accept_Selected_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapButton_Accept_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Accept_Selected_Hover_Background": {
+    "value": "#107e3e",
+    "description": "lighten(@sapButton_Accept_Selected_Background, 5);",
+    "type": "color"
+  },
+  "sapButton_Accept_Selected_Hover_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Lite_TextColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Lite_Hover_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Lite_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Lite_Hover_TextColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Lite_Active_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Lite_Active_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Selected_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Selected_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Selected_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Selected_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": "lighten(@sapButton_Selected_Background, 3);",
+    "type": "color"
+  },
+  "sapButton_Selected_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "@sapButton_Attention_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapButton_Attention_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapButton_Attention_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Attention_Hover_Background": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_Hover_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Attention_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Attention_Active_Background": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapCriticalElementColor, 7);",
+    "type": "color"
+  },
+  "sapButton_Attention_Active_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Attention_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Attention_Selected_Background": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_Selected_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Attention_Selected_TextColor": {
+    "value": "#ffffff",
+    "description": " contrast(@sapButton_Attention_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Attention_Selected_Hover_Background": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapButton_Attention_Selected_Background, 5);",
+    "type": "color"
+  },
+  "sapButton_Attention_Selected_Hover_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Negative_Background": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Negative_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Negative_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Negative_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Negative_Hover_Background": {
+    "value": "#bb0000",
+    "description": "darken(@sapButton_Negative_Background, 7);",
+    "type": "color"
+  },
+  "sapButton_Negative_Hover_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Negative_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": " contrast(@sapButton_Negative_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Negative_Active_Background": {
+    "value": "#bb0000",
+    "description": "darken(@sapButton_Negative_Background, 10);",
+    "type": "color"
+  },
+  "sapButton_Negative_Active_BorderColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapButton_Negative_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Negative_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Critical_Background": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Critical_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Critical_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Critical_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Critical_Hover_Background": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapButton_Critical_Background, 7)",
+    "type": "color"
+  },
+  "sapButton_Critical_Hover_BorderColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapButton_Critical_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Critical_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Critical_Active_Background": {
+    "value": "#df6e0c",
+    "description": "lighten(@sapButton_Critical_Background, 14);",
+    "type": "color"
+  },
+  "sapButton_Critical_Active_BorderColor": {
+    "value": "#df6e0c",
+    "description": "",
+    "type": "color"
+  },
+  "sapButton_Critical_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Critical_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Success_Background": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Success_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Success_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Success_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Success_Hover_Background": {
+    "value": "#107e3e",
+    "description": "darken(@sapButton_Success_Background, 7);",
+    "type": "color"
+  },
+  "sapButton_Success_Hover_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Success_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Success_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Success_Active_Background": {
+    "value": "#107e3e",
+    "description": "darken(@sapButton_Success_Background, 10);",
+    "type": "color"
+  },
+  "sapButton_Success_Active_BorderColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapButton_Success_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Success_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Information_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Information_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Information_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Information_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Information_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapButton_Information_Background, 5);",
+    "type": "color"
+  },
+  "sapButton_Information_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Information_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Information_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Information_Active_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapButton_Information_Background, 10);",
+    "type": "color"
+  },
+  "sapButton_Information_Active_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapButton_Neutral_Background": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapButton_Neutral_BorderColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapButton_Neutral_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Neutral_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Neutral_Hover_Background": {
+    "value": "#6a6d70",
+    "description": " darken(@sapButton_Neutral_Background, 7);",
+    "type": "color"
+  },
+  "sapButton_Neutral_Hover_BorderColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapButton_Neutral_Hover_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Neutral_Hover_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Neutral_Active_Background": {
+    "value": "#6a6d70",
+    "description": "darken(@sapButton_Neutral_Background, 10);",
+    "type": "color"
+  },
+  "sapButton_Neutral_Active_BorderColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapButton_Neutral_Active_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Neutral_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Track_Selected_Background": {
+    "value": "#0a6ed1",
+    "description": "lighten(@sapButton_Selected_Background, 63);",
+    "type": "color"
+  },
+  "sapButton_Track_Selected_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Track_Selected_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_Track_Background": {
+    "value": "#ffffff",
+    "description": " darken(@sapButton_Background, 7);",
+    "type": "color"
+  },
+  "sapButton_Track_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapButton_Track_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapButton_TokenBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapButton_Background, 2);",
+    "type": "color"
+  },
+  "sapButton_TokenBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapButton_Background, 24);",
+    "type": "color"
+  },
+  "sapField_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_TextColor": {
+    "value": "#32363a",
+    "type": "color"
+  },
+  "sapField_PlaceholderTextColor": {
+    "value": "#6a6d70",
+    "description": "lighten(@sapContent_LabelColor, 4);",
+    "type": "color"
+  },
+  "sapField_BorderColor": {
+    "value": "#89919a",
+    "type": "color"
+  },
+  "sapField_HelpBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_BorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapField_Hover_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_Hover_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapField_Hover_HelpBackground": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapField_Active_BorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapField_Focus_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_Focus_BorderColor": {
+    "value": "#89919a",
+    "type": "color"
+  },
+  "sapField_Focus_HelpBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_ReadOnly_Background": {
+    "value": "#ffffff",
+    "description": "fade(darken(@sapField_Background, 5), 50);",
+    "type": "color"
+  },
+  "sapField_ReadOnly_BorderColor": {
+    "value": "#89919a",
+    "type": "color"
+  },
+  "sapField_ReadOnly_HelpBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_RequiredColor": {
+    "value": "#d04343",
+    "description": "darken(@sapAccentColor2, 2);",
+    "type": "color"
+  },
+  "sapField_InvalidColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapField_InvalidBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_InvalidBorderWidth": {
+    "value": 2,
+    "type": "borderWidth"
+  },
+  "sapField_WarningColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapField_WarningBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_WarningBorderWidth": {
+    "value": 2,
+    "type": "borderWidth"
+  },
+  "sapField_SuccessColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapField_SuccessBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_SuccessBorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapField_InformationColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapField_InformationBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapField_InformationBorderWidth": {
+    "value": 2,
+    "type": "borderWidth"
+  },
+  "sapGroup_TitleBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapBaseColor, 15);",
+    "type": "color"
+  },
+  "sapGroup_TitleTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapBackgroundColor, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapGroup_ContentBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapGroup_ContentBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapGroup_ContentBackground, 15);",
+    "type": "color"
+  },
+  "sapGroup_BorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapToolbar_SeparatorColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapBaseColor, 15)",
+    "type": "color"
+  },
+  "sapList_HeaderBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 5);",
+    "type": "color"
+  },
+  "sapList_HeaderBorderColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapList_BorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 10.2);",
+    "type": "color"
+  },
+  "sapList_HeaderTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_HeaderBackground, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapList_BorderWidth": {
+    "value": 1,
+    "type": "borderWidth"
+  },
+  "sapList_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThresho",
+    "type": "color"
+  },
+  "sapList_Active_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_Active_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapList_Active_Background": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapList_SelectionBackgroundColor": {
+    "value": "#0a6ed1",
+    "description": "lighten(desaturate(@sapSelectedColor, 24), 61);",
+    "type": "color"
+  },
+  "sapList_SelectionBorderColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapList_Hover_SelectionBackground": {
+    "value": "#0a6ed1",
+    "description": "contrast(@sapList_SelectionBackgroundColor, darken(@sapList_SelectionBackgroundColor, 3), lighten(@sapList_SelectionBackgroundColor, 3));",
+    "type": "color"
+  },
+  "sapList_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapList_Hover_Background": {
+    "value": "#ffffff",
+    "description": "contrast(@sapList_Background, darken(@sapList_Background, 4), lighten(@sapList_Background, 3));",
+    "type": "color"
+  },
+  "sapList_AlternatingBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 5);",
+    "type": "color"
+  },
+  "sapList_GroupHeaderBackground": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapList_GroupHeaderBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_BorderColor, 4.9);",
+    "type": "color"
+  },
+  "sapList_GroupHeaderTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_GroupHeaderBackground, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapList_TableGroupHeaderBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 6.1);",
+    "type": "color"
+  },
+  "sapList_TableGroupHeaderBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_BorderColor, 4.9);",
+    "type": "color"
+  },
+  "sapList_TableGroupHeaderTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_TableGroupHeaderBackground, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapList_FooterBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 2);",
+    "type": "color"
+  },
+  "sapList_FooterTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapList_FooterBackground, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapList_TableFooterBorder": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_BorderColor, 4.9);",
+    "type": "color"
+  },
+  "sapList_TableFixedBorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_BorderColor, 35);",
+    "type": "color"
+  },
+  "sapScrollBar_FaceColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapScrollBar_TrackColor, 42);",
+    "type": "color"
+  },
+  "sapScrollBar_TrackColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapScrollBar_BorderColor": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapScrollBar_SymbolColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapScrollBar_Dimension": {
+    "value": 12,
+    "type": "sizing"
+  },
+  "sapScrollBar_Hover_FaceColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapScrollBar_FaceColor, 3);",
+    "type": "color"
+  },
+  "sapPageHeader_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapPageHeader_BorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapPageHeader_Background, 15);",
+    "type": "color"
+  },
+  "sapPageHeader_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapPageHeader_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapPageFooter_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapPageFooter_BorderColor": {
+    "value": "#ffffff",
+    "description": " darken(@sapPageFooter_Background, 15);",
+    "type": "color"
+  },
+  "sapPageFooter_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapPageFooter_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapInfobar_Background": {
+    "value": "#0f828f",
+    "type": "color"
+  },
+  "sapInfobar_Hover_Background": {
+    "value": "#0f828f",
+    "description": "darken(@sapInfobar_Background, 3);",
+    "type": "color"
+  },
+  "sapInfobar_Active_Background": {
+    "value": "#0f828f",
+    "description": "darken(@sapInfobar_Background, 11);",
+    "type": "color"
+  },
+  "sapInfobar_NonInteractive_Background": {
+    "value": "#ffffff",
+    "description": " darken(@sapList_Background, 10);",
+    "type": "color"
+  },
+  "sapInfobar_TextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapInfobar_Background, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapObjectHeader_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapObjectHeader_Hover_Background": {
+    "value": "#ffffff",
+    "description": "contrast(@sapObjectHeader_Background, darken(@sapObjectHeader_Background, 4), lighten(@sapObjectHeader_Background, 3));",
+    "type": "color"
+  },
+  "sapObjectHeader_BorderColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapObjectHeader_Background, 15);",
+    "type": "color"
+  },
+  "sapTile_Background": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapTile_Hover_Background": {
+    "value": "#ffffff",
+    "description": "darken(@sapTile_Background, 4);",
+    "type": "color"
+  },
+  "sapTile_Active_Background": {
+    "value": "#ffffff",
+    "description": "darken(@sapTile_Background, 4);",
+    "type": "color"
+  },
+  "sapTile_TitleTextColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapTile_Background, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapTile_TextColor": {
+    "value": "#6a6d70",
+    "description": "contrast(@sapTile_Background, @sapContent_LabelColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapTile_IconColor": {
+    "value": "#353b5f",
+    "description": "contrast(@sapTile_Background, lighten(@sapShellColor, 20), @sapContent_ContrastIconColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapTile_SeparatorColor": {
+    "value": "#ffffff",
+    "description": "darken(@sapTile_Background, 20);",
+    "type": "color"
+  },
+  "sapTile_Interactive_BorderColor": {
+    "value": "#ffffff",
+    "description": " darken(@sapTile_Background, 30);",
+    "type": "color"
+  },
+  "sapTile_OverlayBackground": {
+    "value": "#000",
+    "description": "fade(@sapBlockLayer_Background, 80);",
+    "type": "color"
+  },
+  "sapTile_OverlayForegroundColor": {
+    "value": "#32363a",
+    "description": "contrast(@sapTile_OverlayBackground, @sapTitleColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_1_Hover_Background": {
+    "value": "#880000",
+    "description": "darken(@sapIndicationColor_1, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_1_Active_Background": {
+    "value": "#880000",
+    "description": " darken(@sapIndicationColor_1, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_1_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_1, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_2_Hover_Background": {
+    "value": "#bb0000",
+    "description": "darken(@sapIndicationColor_2, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_2_Active_Background": {
+    "value": "#bb0000",
+    "description": "darken(@sapIndicationColor_2, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_2_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_2, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_3_Hover_Background": {
+    "value": "#df6e0c",
+    "description": "darken(@sapIndicationColor_3, 3);",
+    "type": "color"
+  },
+  "sapIndicationColor_3_Active_Background": {
+    "value": "#df6e0c",
+    "description": "darken(@sapIndicationColor_3, 6);",
+    "type": "color"
+  },
+  "sapIndicationColor_3_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_3, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_4_Hover_Background": {
+    "value": "#107e3e",
+    "description": "darken(@sapIndicationColor_4, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_4_Active_Background": {
+    "value": "#107e3e",
+    "description": "darken(@sapIndicationColor_4, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_4_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_4, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_5_Hover_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapIndicationColor_5, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_5_Active_Background": {
+    "value": "#0a6ed1",
+    "description": "darken(@sapIndicationColor_5, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_5_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_5, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_6_Hover_Background": {
+    "value": "#0f828f",
+    "description": "darken(@sapIndicationColor_6, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_6_Active_Background": {
+    "value": "#0f828f",
+    "description": "darken(@sapIndicationColor_6, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_6_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_6, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_7_Hover_Background": {
+    "value": "#925ace",
+    "description": "darken(@sapIndicationColor_7, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_7_Active_Background": {
+    "value": "#925ace",
+    "description": " darken(@sapIndicationColor_7, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_7_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_7, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapIndicationColor_8_Hover_Background": {
+    "value": "#c0399f",
+    "description": "darken(@sapIndicationColor_8, 5);",
+    "type": "color"
+  },
+  "sapIndicationColor_8_Active_Background": {
+    "value": "#c0399f",
+    "description": "darken(@sapIndicationColor_8, 10);",
+    "type": "color"
+  },
+  "sapIndicationColor_8_TextColor": {
+    "value": "#ffffff",
+    "description": "contrast(@sapIndicationColor_8, @sapTextColor, @sapContent_ContrastTextColor, @sapContent_ContrastTextThreshold);",
+    "type": "color"
+  },
+  "sapLegend_WorkingBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 2);",
+    "type": "color"
+  },
+  "sapLegend_NonWorkingBackground": {
+    "value": "#ffffff",
+    "description": "darken(@sapList_Background, 13);",
+    "type": "color"
+  },
+  "sapLegend_CurrentDateTime": {
+    "value": "#c0399f",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor1": {
+    "value": "#d58215",
+    "description": " lighten(@sapLegendColor1, 49);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor2": {
+    "value": "#dc5b5b",
+    "description": "lighten(@sapLegendColor2, 34);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor3": {
+    "value": "#db1f77",
+    "description": "lighten(@sapLegendColor3, 46);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor4": {
+    "value": "#9b3b3b",
+    "description": "lighten(@sapLegendColor4, 53);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor5": {
+    "value": "#cf5db3",
+    "description": "lighten(@sapLegendColor5, 36);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor6": {
+    "value": "#286eb4",
+    "description": " lighten(@sapLegendColor6, 52);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor7": {
+    "value": "#1193a2",
+    "description": "lighten(@sapLegendColor7, 60);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor8": {
+    "value": "#8b9668",
+    "description": "lighten(@sapLegendColor8, 45);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor9": {
+    "value": "#647987",
+    "description": "lighten(@sapLegendColor9, 49);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor10": {
+    "value": "#892971",
+    "description": "lighten(@sapLegendColor10, 60);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor11": {
+    "value": "#725a3a",
+    "description": " lighten(@sapLegendColor11, 61);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor12": {
+    "value": "#bb2f2f",
+    "description": "lighten(@sapLegendColor12, 49);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor13": {
+    "value": "#bc1b66",
+    "description": "lighten(@sapLegendColor13, 53);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor14": {
+    "value": "#8b714f",
+    "description": "lighten(@sapLegendColor14, 52);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor15": {
+    "value": "#606190",
+    "description": "lighten(@sapLegendColor15, 48);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor16": {
+    "value": "#597da1",
+    "description": " lighten(@sapLegendColor16, 46);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor17": {
+    "value": "#49797e",
+    "description": "lighten(@sapLegendColor17, 56);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor18": {
+    "value": "#687a33",
+    "description": "lighten(@sapLegendColor18, 61);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor19": {
+    "value": "#295989",
+    "description": "lighten(@sapLegendColor19, 60);",
+    "type": "color"
+  },
+  "sapLegendBackgroundColor20": {
+    "value": "#5154bd",
+    "description": "lighten(@sapLegendColor20, 42);",
+    "type": "color"
+  },
+  "sapChart_Sequence_1": {
+    "value": "#5899da",
+    "type": "color"
+  },
+  "sapChart_Sequence_2": {
+    "value": "#e8743b",
+    "type": "color"
+  },
+  "sapChart_Sequence_3": {
+    "value": "#19a979",
+    "type": "color"
+  },
+  "sapChart_Sequence_4": {
+    "value": "#ed4a7b",
+    "type": "color"
+  },
+  "sapChart_Sequence_5": {
+    "value": "#945ecf",
+    "type": "color"
+  },
+  "sapChart_Sequence_6": {
+    "value": "#13a4b4",
+    "type": "color"
+  },
+  "sapChart_Sequence_7": {
+    "value": "#525df4",
+    "type": "color"
+  },
+  "sapChart_Sequence_8": {
+    "value": "#bf399e",
+    "type": "color"
+  },
+  "sapChart_Sequence_9": {
+    "value": "#6c8893",
+    "type": "color"
+  },
+  "sapChart_Sequence_10": {
+    "value": "#ee6868",
+    "type": "color"
+  },
+  "sapChart_Sequence_11": {
+    "value": "#2f6497",
+    "type": "color"
+  },
+  "sapChart_Sequence_Neutral": {
+    "value": "#848f94",
+    "type": "color"
+  },
+  "sapBackgroundColorDefault": {
+    "value": "#ffffff",
+    "description": "darken(@sapPrimary3, 3);",
+    "type": "color"
+  },
+  "sapList_HighlightColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapGroup_Title_FontSize": {
+    "value": 14,
+    "type": "fontSizes"
+  },
+  "sapShell_BackgroundGradient": {
+    "value": "linear-gradient(180deg, #edeff0 0%, #edeff0 100%)",
+    "description": "linear-gradient(to bottom, darken(@sapShell_Background, 5), lighten(@sapShell_Background, 2));",
+    "type": "color"
+  },
+  "sapPrimary1": {
+    "value": "#353b5f",
+    "type": "color"
+  },
+  "sapPrimary2": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapPrimary3": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "sapPrimary4": {
+    "value": "#edeff0",
+    "type": "color"
+  },
+  "sapPrimary5": {
+    "value": "#89919a",
+    "type": "color"
+  },
+  "sapPrimary6": {
+    "value": "#32363a",
+    "type": "color"
+  },
+  "sapPrimary7": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapShell_BackgroundPatternColor": {
+    "value": "#ffffff00",
+    "type": "color"
+  },
+  "sapContent_GridSize": {
+    "value": 16,
+    "type": "sizing"
+  },
+  "sapNegativeColor": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapCriticalColor": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapPositiveColor": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapInformativeColor": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapNeutralColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapFontFamily": {
+    "value": 72,
+    "description": "\"72\", \"72full\", Arial, Helvetica, sans-serif;",
+    "type": "fontFamilies"
+  },
+  "sapContent_LineHeight": {
+    "value": 16.1,
+    "type": "lineHeights"
+  },
+  "sapContent_FocusColor": {
+    "value": "#000",
+    "type": "color"
+  },
+  "sapContent_ShadowColor": {
+    "value": "#000",
+    "type": "color"
+  },
+  "sapContent_ContrastShadowColor": {
+    "value": "#fff",
+    "type": "color"
+  },
+  "sapContent_SearchHighlightColor": {
+    "value": "#d4f7db",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color1": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color2": {
+    "value": "#72b5f8",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color3": {
+    "value": "#ffba10",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color4": {
+    "value": "#4a5055",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color5": {
+    "value": "#9da4aa",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color6": {
+    "value": "#c6cace",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color7": {
+    "value": "#e7e9ea",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color8": {
+    "value": "#fff",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color9": {
+    "value": "#64edd2",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color10": {
+    "value": "#e7e9ea",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color11": {
+    "value": "#f31ded",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color12": {
+    "value": "#5dc122",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color13": {
+    "value": "#4ba1f6",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color14": {
+    "value": "#298ff4",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color15": {
+    "value": "#e6a400",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color16": {
+    "value": "#085aaa",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color17": {
+    "value": "#00a5a8",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color18": {
+    "value": "#d9ddde",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color19": {
+    "value": "#ccd0d2",
+    "type": "color"
+  },
+  "sapContent_Illustrative_Color20": {
+    "value": "#bec4c6",
+    "type": "color"
+  },
+  "sapFontLightFamily": {
+    "value": "72-Light",
+    "description": "\"72-Lightfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif;",
+    "type": "fontFamilies"
+  },
+  "sapFontBoldFamily": {
+    "value": "72-Bold",
+    "description": "\"72-Boldfull\", \"72\", \"72full\", Arial, Helvetica, sans-serif",
+    "type": "fontFamilies"
+  },
+  "sapFontBlackFamily": {
+    "value": "72Black",
+    "description": "\"72\", \"72full\", Arial, Helvetica, sans-serif",
+    "type": "fontFamilies"
+  },
+  "sapShell_BackgroundImageOpacity": {
+    "value": 1,
+    "type": "opacity"
+  },
+  "sapShell_InteractiveTextColor": {
+    "value": "#d1e8ff",
+    "type": "color"
+  },
+  "sapButton_Emphasized_FontWeight": {
+    "value": "bold",
+    "type": "fontWeights"
+  },
+  "sapGroup_TitleBackground": {
+    "value": "#ffffff00",
+    "description": "transparent",
+    "type": "color"
+  },
+  "sapGroup_BorderCornerRadius": {
+    "value": 0,
+    "type": "borderRadius"
+  },
+  "sapGroup_FooterBackground": {
+    "value": "#ffffff00",
+    "description": "trasnaparent",
+    "type": "color"
+  },
+  "sapToolbar_Background": {
+    "value": "#ffffff00",
+    "description": "transparent",
+    "type": "color"
+  },
+  "sapBlockLayer_Background": {
+    "value": "#000",
+    "type": "color"
+  },
+  "sapTile_BorderColor": {
+    "value": "#ffffff00",
+    "description": "transparent",
+    "type": "color"
+  },
+  "sapAccentColor1": {
+    "value": "#d08014",
+    "type": "color"
+  },
+  "sapAccentColor2": {
+    "value": "#d04343",
+    "type": "color"
+  },
+  "sapAccentColor3": {
+    "value": "#db1f77",
+    "type": "color"
+  },
+  "sapAccentColor4": {
+    "value": "#c0399f",
+    "type": "color"
+  },
+  "sapAccentColor5": {
+    "value": "#6367de",
+    "type": "color"
+  },
+  "sapAccentColor6": {
+    "value": "#286eb4",
+    "type": "color"
+  },
+  "sapAccentColor7": {
+    "value": "#0f828f",
+    "type": "color"
+  },
+  "sapAccentColor8": {
+    "value": "#7ca10c",
+    "type": "color"
+  },
+  "sapAccentColor9": {
+    "value": "#925ace",
+    "type": "color"
+  },
+  "sapAccentColor10": {
+    "value": "#647987",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor1": {
+    "value": "#fff3b8",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor2": {
+    "value": "#ffd0e7",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor3": {
+    "value": "#fff0fa",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor4": {
+    "value": "#ffdcf3",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor5": {
+    "value": "#ded3ff",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor6": {
+    "value": "#d1efff",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor7": {
+    "value": "#c2fcee",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor8": {
+    "value": "#ebf5cb",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor9": {
+    "value": "#dafdf5",
+    "type": "color"
+  },
+  "sapAccentBackgroundColor10": {
+    "value": "#eaecee",
+    "type": "color"
+  },
+  "sapIndicationColor_1": {
+    "value": "#880000",
+    "type": "color"
+  },
+  "sapIndicationColor_2": {
+    "value": "#bb0000",
+    "type": "color"
+  },
+  "sapIndicationColor_3": {
+    "value": "#df6e0c",
+    "type": "color"
+  },
+  "sapIndicationColor_4": {
+    "value": "#107e3e",
+    "type": "color"
+  },
+  "sapIndicationColor_5": {
+    "value": "#0a6ed1",
+    "type": "color"
+  },
+  "sapIndicationColor_6": {
+    "value": "#0f828f",
+    "type": "color"
+  },
+  "sapIndicationColor_7": {
+    "value": "#925ace",
+    "type": "color"
+  },
+  "sapIndicationColor_8": {
+    "value": "#c0399f",
+    "type": "color"
+  },
+  "sapLegendColor1": {
+    "value": "#d58215",
+    "type": "color"
+  },
+  "sapLegendColor2": {
+    "value": "#dc5b5b",
+    "type": "color"
+  },
+  "sapLegendColor3": {
+    "value": "#db1f77",
+    "type": "color"
+  },
+  "sapLegendColor4": {
+    "value": "#9b3b3b",
+    "type": "color"
+  },
+  "sapLegendColor5": {
+    "value": "#cf5db3",
+    "type": "color"
+  },
+  "sapLegendColor6": {
+    "value": "#286eb4",
+    "type": "color"
+  },
+  "sapLegendColor7": {
+    "value": "#1193a2",
+    "type": "color"
+  },
+  "sapLegendColor8": {
+    "value": "#8b9668",
+    "type": "color"
+  },
+  "sapLegendColor9": {
+    "value": "#647987",
+    "type": "color"
+  },
+  "sapLegendColor10": {
+    "value": "#892971",
+    "type": "color"
+  },
+  "sapLegendColor11": {
+    "value": "#725a3a",
+    "type": "color"
+  },
+  "sapLegendColor12": {
+    "value": "#bb2f2f",
+    "type": "color"
+  },
+  "sapLegendColor13": {
+    "value": "#bc1b66",
+    "type": "color"
+  },
+  "sapLegendColor14": {
+    "value": "#8b714f",
+    "type": "color"
+  },
+  "sapLegendColor15": {
+    "value": "#606190",
+    "type": "color"
+  },
+  "sapLegendColor16": {
+    "value": "#597da1",
+    "type": "color"
+  },
+  "sapLegendColor17": {
+    "value": "#49797e",
+    "type": "color"
+  },
+  "sapLegendColor18": {
+    "value": "#687a33",
+    "type": "color"
+  },
+  "sapLegendColor19": {
+    "value": "#295989",
+    "type": "color"
+  },
+  "sapLegendColor20": {
+    "value": "#5154bd",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_1": {
+    "value": "#5899da",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_2": {
+    "value": "#e8743b",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_3": {
+    "value": "#19a979",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_4": {
+    "value": "#ed4a7b",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_5": {
+    "value": "#945ecf",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_6": {
+    "value": "#13a4b4",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_7": {
+    "value": "#525df4",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_8": {
+    "value": "#bf399e",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_9": {
+    "value": "#6c8893",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_10": {
+    "value": "#ee6868",
+    "type": "color"
+  },
+  "sapChart_OrderedColor_11": {
+    "value": "#2f6497",
+    "type": "color"
+  },
+  "sapChart_Bad": {
+    "value": "#dc0d0e",
+    "type": "color"
+  },
+  "sapChart_Critical": {
+    "value": "#de890d",
+    "type": "color"
+  },
+  "sapChart_Good": {
+    "value": "#3fa45b",
+    "type": "color"
+  },
+  "sapChart_Neutral": {
+    "value": "#848f94",
+    "type": "color"
+  },
+  "space-null": {
+    "value": 0,
+    "type": "spacing"
+  },
+  "space-01": {
+    "value": 8,
+    "type": "spacing"
+  },
+  "space-02": {
+    "value": 16,
+    "type": "spacing"
+  },
+  "space-03": {
+    "value": 24,
+    "type": "spacing"
+  },
+  "space-04": {
+    "value": 32,
+    "type": "spacing"
+  },
+  "space-05": {
+    "value": 40,
+    "type": "spacing"
+  },
+  "space-06": {
+    "value": 48,
+    "type": "spacing"
+  },
+  "space-07": {
+    "value": 56,
+    "type": "spacing"
+  },
+  "space-08": {
+    "value": 64,
+    "type": "spacing"
+  },
+  "space-09": {
+    "value": 80,
+    "type": "spacing"
+  },
+  "space-10": {
+    "value": 88,
+    "type": "spacing"
+  },
+  "space-12": {
+    "value": 128,
+    "type": "spacing"
+  },
+  "space-13": {
+    "value": 160,
+    "type": "spacing"
+  },
+  "space-14": {
+    "value": 192,
+    "type": "spacing"
+  },
+  "sapButton_Emphasized_TextShadow": {
+    "value": "#ffffff00",
+    "type": "color"
+  },
+  "sapButton_Lite_Background": {
+    "value": "#ffffff00",
+    "description": "Transparent",
+    "type": "color"
+  },
+  "sapButton_Lite_BorderColor": {
+    "value": "#ffffff00",
+    "description": "Transparent",
+    "type": "color"
+  },
+  "sapContent_LabelColor": {
+    "value": "#6a6d70",
+    "type": "color"
+  },
+  "sapContent_IconFontFamily": {
+    "value": "SAP-icons",
+    "type": "fontFamilies"
+  },
+  "sapContent_MonospaceFontFamily": {
+    "value": "72Mono",
+    "type": "fontFamilies"
+  },
+  "sapContent_MonospaceBoldFontFamily": {
+    "value": "72Mono-Bold",
+    "type": "fontFamilies"
+  }
+}
