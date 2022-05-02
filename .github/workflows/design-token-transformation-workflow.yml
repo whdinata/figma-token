@@ -1,8 +1,8 @@
 name: Transform Design Token
 on: 
-  push:
-    branches:
+  branches:
       - 'design-token/**'
+  push:
     paths:
       - 'data/tokens.json'
 jobs:
