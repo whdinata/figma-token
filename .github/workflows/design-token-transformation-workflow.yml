@@ -1,14 +1,16 @@
 name: Transform Design Token
 on: 
   push:
+    branches:
+      - 'design-token/**'
     paths:
       - 'data/tokens.json'
 jobs:
   transform-design-token:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with: 
           node-version: 16
       - name: Install Token Transformer
