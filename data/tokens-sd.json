@@ -1,6 +1,6 @@
 {
   "sapBrandColor": {
-    "value": "#0a6dd1",
+    "value": "#0a6ed1",
     "type": "color"
   },
   "sapHighlightColor": {
@@ -490,7 +490,7 @@
   },
   "sapShell_NegativeColor": {
     "value": "#bb0000",
-    "description": "lighten(@sapNegativeColor, 40)",
+    "description": "lighten(@sapNegativeColor, 41)",
     "type": "color"
   },
   "sapFont_button": {
