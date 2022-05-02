@@ -1,0 +1,14 @@
+name: Create Pull Request
+on: 
+  push:
+    branches:
+      - 'design-token/**'
+jobs:
+  transform-design-token:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Update Design Token
