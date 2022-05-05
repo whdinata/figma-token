@@ -14,7 +14,7 @@ jobs:
         with: 
           node-version: 16
       - name: Install Token Transformer
-        run: npm install -g token-transformer
+        run: npm install -g token-transformer@0.0.20
       - name: Transform Figma Token to Style Dictionary Input Format
         run : token-transformer data/tokens.json data/tokens-sd.json global,alias
       - name: Install Style Dictionary
